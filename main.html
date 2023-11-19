@@ -6,10 +6,78 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
+	<style>
+        table {
+            width: 50%;
+            border-collapse: collapse;
+            margin: 20px;
+        }
+
+        th, td {
+            border: 2px solid #3498db;
+            padding: 12px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #3498db;
+            color: #ffffff;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        tbody tr:hover {
+            background-color: #e0e0e0;
+        }
+    </style>
+    <title>Game Statistics</title>
 </head>
 <body>
-    <!-- add table here -->
+   <h2>Game Statistics</h2>
 
+    <table>
+        <thead>
+            <tr>
+                <th>Player</th>
+                <th>Goals Scored</th>
+                <th>Assists</th>
+                <th>Yellow Cards</th>
+                <th>Red Cards</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Messi</td>
+                <td>20</td>
+                <td>15</td>
+                <td>2</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>Ronaldo</td>
+                <td>20</td>
+                <td>10</td>
+                <td>1</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>Neymar</td>
+                <td>18</td>
+                <td>12</td>
+                <td>3</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>Salah</td>
+                <td>22</td>
+                <td>8</td>
+                <td>4</td>
+                <td>0</td>
+            </tr>
+        </tbody>
+    </table>
         
 </body>
 </html>
